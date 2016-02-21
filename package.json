@@ -1,0 +1,30 @@
+{
+  "name": "to-do-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monifrancesca/to_do_app.git"
+  },
+  "author": "monifrancesca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monifrancesca/to_do_app/issues"
+  },
+  "homepage": "https://github.com/monifrancesca/to_do_app#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "jquery": "^2.2.0",
+    "node-sass": "^3.4.2",
+    "normalize.css": "^3.0.3",
+    "path": "^0.12.7",
+    "pg": "^4.4.6",
+    "reset.css": "^2.0.2"
+  }
+}
