@@ -1,7 +1,5 @@
 # Iota Weekend Challenge 4
 
-    Hello Primers!
-
     For this weekends challenge, you are going to create a 'TO DO' application. This is the type of application that is very common to tackle when learning a new language, which makes it extremely valuable to work through for the first time, since chances are good that at some point in your career you will tackle this type of application, but in another language.
 
     Here are the specific components for the challenge:
