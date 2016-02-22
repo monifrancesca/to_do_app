@@ -1,0 +1,40 @@
+$font-stack: Arial, sans-serif, #ff0722;
+$primary-color: #343434;
+
+div.createTask {
+  color: white;
+}
+
+.container {
+  font: 100% $font-stack;
+  color: $primary-color;
+  width: 940px;  // If the device is narrower than 940px, switch to
+  // a fluid layout
+  @media screen and (max-width:940px) {
+    width: auto;
+  }
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+.box {
+  @include border-radius(10px);
+  border: dotted;
+}
+
+createTask[role="main"] {
+  float: left;
+  width: 600px / 960px * 100%;
+  border: dotted;
+}
+
+showTask[role="complimentary"] {
+  float: right;
+  width: 300px / 960px * 100%;
+  border: dotted;
+}
